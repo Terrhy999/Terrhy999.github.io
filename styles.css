@@ -43,14 +43,23 @@ a {
 
 .navItem {
     color: white;
-    font-family: 'Anton';
+    font-family: 'Tahoma';
     font-size: 16px;
-    background-color: palevioletred;
-    border-radius: 3px;
+    background-color: #575757;
     float: left;
-    padding: 10px;
-    margin: 6px
+    padding: 16px;
+    margin-bottom: 10px;
 }
+
+.navItem.current {
+    background-color: palevioletred;
+}
+
+.navItem:hover {
+    background-color: palevioletred;
+}
+
+
 
 .navItem a {
     color: white;
