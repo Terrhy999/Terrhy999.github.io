@@ -29,3 +29,11 @@ a {
     text-decoration: none;
     color: inherit;
   }
+
+#navBar {
+    border-bottom: 1 px white;
+}
+
+#navBar ul {
+    list-style-type: none;
+}
