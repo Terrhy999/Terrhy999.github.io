@@ -37,3 +37,7 @@ a {
 .navBar ul {
     list-style-type: none;
 }
+
+.navItem {
+    color: white;
+}
