@@ -9,20 +9,29 @@
     <body>
         <nav class ="navBar">
             <ul>
-                <li class ="navItem"><a href="index.html">Home</a></li>
-                <li class ="navItem current"><a href="#Contact">Contact</a></li>
-                <li class ="navItem"><a href="#Another-Page">Another Page</a></li>
+                <a href="index.html"><li class ="navItem">Home</li></a>
+                <a href="contact.html"><li class ="navItem current">Contact</li></a>
+                <a href="#Another-Page"><li class ="navItem">Another Page</li></a>
             </ul>
         </nav>
     <selection class="container">        
-        <h2> Enter your informatin here to contact me</h2>
+        <h2>Go ahead and shoot me a message</h2>
+            <div>
+                <form class="container">
+                    <input class="formItem" type="text" id="name" name="name" placeholder="Name">
+                    <input class="formItem" type="email" id="email" name="email" placeholder="Email">
+                    <input class="formItem" type ="text" id="message" name="message" placeholder="Message">
+                    <button class="formItem" id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        
 
         <p>
                 <span>Projects</span> :
                 <span><a href="https://github.com/Terrhy999" target="_blank">Github</a></span> :
                 <span>LinkedIn</span> :
                 <span>Resume</span> :
-                <span>Contact</span> :
+                <span>Contact</span>
         </p>
     </selection>
 
