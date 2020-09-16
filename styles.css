@@ -44,6 +44,13 @@ body {
     padding: 0px;
 }
 
+#submit:hover {
+    /* border-width: 3px; */
+    /* border-color: palevioletred; */
+    background-color: palevioletred;
+    transition-duration: 0.3s;
+}
+
 
 #message {
     padding-bottom: 250px;
